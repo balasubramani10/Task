@@ -1,0 +1,250 @@
+/* Root and Default */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&family=Roboto:wght@300;400&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+.sectionPadding{
+    padding: 1.2rem 10%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    --accentColor1: #FBFBFB;
+}
+/* Root and Default */
+
+/* Nav Bar */
+
+.hamburgerIcon{
+    display: none;
+}
+nav .sectionPadding{
+    display: flex;
+    justify-content: space-between;
+}
+nav .navLinks{
+    display: flex;
+    gap: 1.2rem;
+}
+.hamburgerIcon {
+    height: 1.8rem;
+    width: 1.5rem;
+    cursor: pointer;
+  }
+  .hamburgerIcon .line {
+    background-color: black;
+    height: 0.2rem;
+    width: 100%;
+    border-radius: 3rem;
+    margin: 0.2rem;
+  }
+/* Nav Bar */
+
+
+.contentSection{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contentSection .title{
+    text-align: center;
+    border-bottom: 3px solid#FEB633; 
+    width: 15%; 
+    margin: 0 auto; 
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+.latestWork{
+    margin-top: 5rem;
+}
+.contentSection .content{
+    text-align: center;
+}
+
+
+/* Products */
+.showCase .sectionNavBar .navLinks{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;    
+   margin-bottom: 3.2rem;
+   margin-top: 3rem;
+}
+.gridContainer{
+    
+}
+.sectionNavBar a{
+    font-size: 120%;
+    
+}
+.active a{
+    color: #FEB633;
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+    font-weight: bolder;
+
+}
+
+
+.gridContainer .top{
+    display: flex;
+    gap: 0.5rem;
+}
+.gridContainer .top .right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+}
+.gridContainer .bottom{
+    display: flex;
+    gap: 0.5rem;
+}
+.gridContainer .bottom .right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    gap: 0.5rem;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Products */
+
+/*  */
+.workExp.contentSection .title{
+    text-align: center;
+    border-bottom: 3px solid #FEB633; 
+    width: 20%; 
+    margin: 0 auto; 
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+/*  */
+
+/*  */
+
+.Worklist{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.box {
+    flex: 1;
+    gap: 0.5px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid rgba(224, 222, 222, 0.904);
+    flex-direction: column;
+    padding: 1rem;
+
+    
+  }
+  .box .jobDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin-bottom: 0.5rem;
+
+  }
+  .box p {
+    text-align: justify;
+}
+/*  */
+
+
+
+/*  */
+@media screen and (max-width: 850px) {
+    /* Navigation Bar Starts Here */
+     #navigationBar .sectionPadding {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      height: fit-content;
+      align-items: center;
+      
+      
+      /* padding: 2rem 0rem; */
+    }
+    .sectionPadding #NavLogo {
+      align-self: flex-start;
+      margin: 0;
+    }
+    
+    .sectionPadding .navLinks {
+      display: none;
+    }
+    .sectionPadding #navToggleBtn {
+      display: block;
+      position: absolute;
+      top: 2.5rem;
+      right: 5rem;
+    }
+    .sectionPadding .showToggleOptions {
+      
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1.2rem;
+      height: fit-content;
+    }}
+    
+    
+    /* Navigation Bar Ends Here */
+  
+  
+  /* Contacts endss here */
+  
+  /* Tablets */
+  @media screen and (max-width: 1127px) {
+    .sectionPadding #navigationBar {
+      justify-content: space-between;
+      padding: 1.5rem 5rem;
+    }
+  }
+  .sectionPadding #NavLogo {
+    align-self: flex-start;
+    margin: 0;
+  }
+  
+  
+  
+  /*  */
+  
+  
+  /* Additional Styles */
+  /* Additional Styles */
+  /* Add Project Form */
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+
